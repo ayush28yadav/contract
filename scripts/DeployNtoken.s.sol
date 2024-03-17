@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "forge-std/Script.sol";
-import "..contract/src/Ntoken.sol";
+import "../src/Ntoken.sol";
 
 contract NtokenDeploy is Script {
     function run() external returns (Ntoken) {
